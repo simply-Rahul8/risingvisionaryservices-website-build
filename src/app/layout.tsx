@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "RisingVisionaryServices - Professional Development & Training",
   description: "Empowering future professionals through quality education and real-world experience.",
   icons: {
-    icon: "/favicon -degree.webp",
+    icon: "/favicon-degree.ico",
   },
 };
 
