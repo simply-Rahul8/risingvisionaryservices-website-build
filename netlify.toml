@@ -1,0 +1,5 @@
+[build]
+  # Optional: you can set build command and publish directory here if needed
+
+[build.environment]
+  NODE_VERSION = "18" 
