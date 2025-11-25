@@ -38,15 +38,10 @@ const testimonials = [
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
     content: "The quality of education at RisingVisionaryServices is truly outstanding. The instructors are patient, knowledgeable, and genuinely invested in student success. This course has been instrumental in my professional growth and has opened doors I never thought possible. I've gained both technical skills and the confidence to pursue ambitious career goals."
   },
-  {
-    id: 6,
-    name: "Dinesh Reddy",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
-    content: "The comprehensive curriculum covers all essential topics with depth and clarity. The expert instruction and supportive learning environment made it easy to grasp challenging concepts. The quality of teaching and the dedication of the instructors have made this one of the best educational experiences I've had."
-  }
+  
 ]
 
-const ITEMS_PER_PAGE = 6
+const ITEMS_PER_PAGE = 5
 
 export default function JournalPage() {
   const [currentPage, setCurrentPage] = useState(1)
@@ -157,7 +152,7 @@ export default function JournalPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-primary/5 to-secondary/5">
+      <section className="py-20 bg-linear-to-br from-primary/5 to-secondary/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">
             Ready to Write Your <span className="gradient-text">Success Story</span>?

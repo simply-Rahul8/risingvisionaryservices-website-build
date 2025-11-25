@@ -94,33 +94,33 @@ export default function ContactPage() {
               </Card>
             </a>
 
-            <div className="group">
-              <Card className="h-full">
+            <a
+              href="https://www.linkedin.com/in/raghuvamsisairangannagari"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group"
+            >
+              <Card className="hover:shadow-xl transition-all transform hover:-translate-y-2 h-full">
                 <CardHeader className="text-center">
-                  <div className="w-16 h-16 rounded-full gradient-emerald-purple flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 rounded-full gradient-emerald-purple flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                     <Linkedin className="text-white" size={28} />
                   </div>
                   <CardTitle>LinkedIn</CardTitle>
                   <CardDescription>Connect professionally</CardDescription>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <a 
-                    href="https://www.linkedin.com/in/raghuvamsisairangannagari"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm font-semibold text-primary hover:underline break-all"
-                  >
-                    linkedin.com/in/raghuvamsisairangannagari
-                  </a>
+                  <p className="text-lg font-semibold text-primary">
+                    Visit Profile
+                  </p>
                 </CardContent>
               </Card>
-            </div>
+            </a>
           </div>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-br from-background to-muted/30">
+      <section className="py-20 bg-linear-to-br from-background to-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">
             Ready to Get Started?

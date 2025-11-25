@@ -9,6 +9,9 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "RisingVisionaryServices - Professional Development & Training",
   description: "Empowering future professionals through quality education and real-world experience.",
+  icons: {
+    icon: "/favicon -degree.webp",
+  },
 };
 
 export default function RootLayout({

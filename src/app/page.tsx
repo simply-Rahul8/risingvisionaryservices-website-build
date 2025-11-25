@@ -131,13 +131,13 @@ export default function Home() {
             className="object-cover brightness-50"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-secondary/30" />
+          <div className="absolute inset-0 bg-linear-to-br from-primary/30 to-secondary/30" />
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
             Shape Your Tomorrow by
-            <span className="block mt-2 bg-gradient-to-r from-emerald-400 to-purple-400 bg-clip-text text-transparent">
+            <span className="block mt-2 bg-linear-to-r from-emerald-400 to-purple-400 bg-clip-text text-transparent">
               Building a Skill Today
             </span>
           </h1>
@@ -158,7 +158,7 @@ export default function Home() {
       <MarqueeScroll items={marqueeItems} />
 
       {/* Statistics Section */}
-      <section ref={statsRef} className="py-20 bg-gradient-to-br from-background to-muted/30">
+      <section ref={statsRef} className="py-20 bg-linear-to-br from-background to-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center transform hover:scale-105 transition-transform">
@@ -169,9 +169,9 @@ export default function Home() {
             </div>
             <div className="text-center transform hover:scale-105 transition-transform">
               <div className="text-5xl md:text-6xl font-bold gradient-text mb-2">
-                <AnimatedCounter end={50} suffix="+" />
+                Expert Instructors
               </div>
-              <p className="text-lg text-muted-foreground">Expert Instructors</p>
+              <p className="text-lg text-muted-foreground">Dedicated to Your Success</p>
             </div>
             <div className="text-center transform hover:scale-105 transition-transform">
               <div className="text-5xl md:text-6xl font-bold gradient-text mb-2">
@@ -251,7 +251,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-gradient-to-br from-primary/5 to-secondary/5">
+      <section className="py-20 bg-linear-to-br from-primary/5 to-secondary/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">

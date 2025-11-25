@@ -48,7 +48,7 @@ export default function AboutPage() {
             fill
             className="object-cover brightness-50"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-primary/40 to-secondary/40" />
+          <div className="absolute inset-0 bg-linear-to-br from-primary/40 to-secondary/40" />
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -62,12 +62,12 @@ export default function AboutPage() {
       </section>
 
       {/* Mastermind Section */}
-      <section className="py-20 bg-gradient-to-br from-background to-muted/30">
+      <section className="py-20 bg-linear-to-br from-background to-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-start gap-4 max-w-xs">
             <div className="relative w-32 h-32 rounded-lg overflow-hidden border-4 border-primary/20">
               <Image
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop"
+                src="/mastermind.jpg"
                 alt="Mastermind"
                 fill
                 className="object-cover"
@@ -116,7 +116,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats */}
-      <section className="py-20 bg-gradient-to-br from-primary/5 to-secondary/5">
+      <section className="py-20 bg-linear-to-br from-primary/5 to-secondary/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
@@ -165,7 +165,7 @@ export default function AboutPage() {
       </section>
 
       {/* Values */}
-      <section className="py-20 bg-gradient-to-br from-background to-muted/30">
+      <section className="py-20 bg-linear-to-br from-background to-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">
